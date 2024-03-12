@@ -194,7 +194,7 @@ class LenPasword(Screen):
 
         for record in data:
             self.boxlayout.add_widget(
-                MyLabel(text=f"ID: {record[0]} | ФИО: {record[1]} | Дата добавления: {record[2]}"))
+                MyLabel(text=f"{record[0]}\n{record[1]}\n{record[2]}"))
 
 
 
